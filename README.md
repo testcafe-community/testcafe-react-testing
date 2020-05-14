@@ -15,7 +15,7 @@ fixture`React`
   .clientScripts([ //these scripts can go in .testcaferc.json if you like
     { "module": "react/umd/react.development.js" },
     { "module": "react-dom/umd/react-dom.development.js" },
-    { "module": "testcafe-react-testing/dist/testcafe-react-testing.umd.min.js" },
+     "./dist/testcafe-react-testing.umd.min.js" // once published will be: { "module": "testcafe-react-testing/dist/testcafe-react-testing.umd.min.js" },
   ]);
 
 test('Can render react element', async t => {
