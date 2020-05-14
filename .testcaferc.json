@@ -1,6 +1,6 @@
 {
     "tsConfigPath":"tsconfig.json",
-    "browsers":["chrome"],
+    "browsers":["chrome:headless"],
     "src":"test/**/*.test.ts",
     "clientScripts":[
         { "module": "react/umd/react.development.js" },

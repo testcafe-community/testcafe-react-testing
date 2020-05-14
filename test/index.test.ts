@@ -10,12 +10,12 @@ declare global {
 }
 
 fixture`React`
-    .page('about:blank')
 
 
 
 test('Can render react element', async t => {
 
+    // would be nice if testcafe would allow JSX here:
     let el = React.createElement("div", null, "Hello friends");
 
     await render(el);
