@@ -1,0 +1,11 @@
+{
+    "tsConfigPath":"tsconfig.json",
+    "browsers":["chrome"],
+    "src":"test/**/*.test.ts",
+    "clientScripts":[
+        { "module": "react/umd/react.development.js" },
+        { "module": "react-dom/umd/react-dom.development.js" },
+        "./dist/testcafe-react-testing.umd.js" 
+
+    ]
+}
