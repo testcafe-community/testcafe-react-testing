@@ -3,15 +3,7 @@ import { render } from '../src';
 // import { getByText } from '@testing-library/testcafe';
 import { Selector } from 'testcafe';
 
-declare global {
-    interface Window {
-        ReactDOM: any;
-    }
-}
-
 fixture`React`
-
-
 
 test('Can render react element', async t => {
 
