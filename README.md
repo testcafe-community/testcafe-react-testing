@@ -3,7 +3,7 @@
 After seeing [Cypress react unit test](https://github.com/bahmutov/cypress-react-unit-test) I decided to attempt to recreate the same 
 idea in my favorite e2e testing tool: Testcafe.  This is very early and experimental at this point, but the basic concept is working.
 Currently, there are some [limitations with testcafe not supporting JSX](https://github.com/DevExpress/testcafe/issues/4817) so for the time
-being you have to use React.createElement, but here's an example of how this works.
+being you have to use React.createElement, but here's an example of how this works.  If you're interested in this project, plase give a 👍 to this issue: https://github.com/DevExpress/testcafe/issues/5076
 
 ```js
 
